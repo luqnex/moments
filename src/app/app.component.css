@@ -1,0 +1,13 @@
+.main {
+  min-height: calc(100vh - 10rem);
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.container {
+  width: 100%;
+  max-width: 1250px;
+  padding: 1rem 0;
+}

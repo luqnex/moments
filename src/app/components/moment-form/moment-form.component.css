@@ -1,0 +1,38 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input[type="text"], .form-group textarea {
+  padding: 0.5rem 1rem;
+}
+
+.form-group .validation-error p {
+  color: red;
+  font-size: 0.8rem;
+}
+
+input[type="submit"] {
+  margin-top: 2rem;
+  background-color: #efefef;
+  border: 1px solid transparent;
+  padding: 0.6rem 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 0.4s;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  color: #dec129;
+  border-color: #dec129;
+  background-color: transparent;
+}
+
+

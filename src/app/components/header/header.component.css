@@ -1,0 +1,16 @@
+.nav {
+  max-width: 1250px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+}
+
+ul li {
+  list-style: none;
+}
