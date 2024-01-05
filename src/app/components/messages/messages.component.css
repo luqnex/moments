@@ -1,0 +1,25 @@
+.messages {
+  width: 50%;
+  position: absolute;
+  top: 3rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  right: auto;
+  border: 1px solid #dec129;
+  border-radius: 0.4rem;
+  background-color: #FFF;
+  z-index: 999;
+  padding: 1rem 2rem;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.button-clear {
+  width: 1.4rem;
+  height: 1.4rem;
+  cursor: pointer;
+}
